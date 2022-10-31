@@ -1,0 +1,20 @@
+{
+  "name": "devops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:js": "cd js-devops-dockerising && docker build -f Dockerfile -t js:1 . && docker run --rm -it -p 80:3000 --name js-devops-dockerising --memory=200M --cpus=1.5 js:1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Er4ik/ArchitectureSoftware_Lab3.git"
+  },
+  "author": "Ervin Osmanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Er4ik/ArchitectureSoftware_Lab3/issues"
+  },
+  "homepage": "https://github.com/Er4ik/ArchitectureSoftware_Lab3#readme"
+}
