@@ -27,7 +27,7 @@ npm run start:js
 ```bash
 cd js-devops-dockerising
 docker build -f Dockerfile -t js:1 .
-docker run --rm -it -p 5001:3000 lab3:01
+docker run --rm -it -p 80:3000 --name js-devops-dockerising --memory=200M --cpus=1.5 js:1
 ```
 
 App running on Port 80
