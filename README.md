@@ -8,6 +8,12 @@
 git clone https://github.com/Er4ik/dockerising_nodejs_app.git
 ```
 
+- Install deps in the ./js-devops-dockerising
+
+```bash
+npm i
+```
+
 ## Usage
 
 - If you have node and npm on your pc:
