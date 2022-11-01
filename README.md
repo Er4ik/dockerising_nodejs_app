@@ -26,7 +26,7 @@ npm run start:js
 
 ```bash
 cd js-devops-dockerising
-docker build -f Dockerfile -t lab3:01 .
+docker build -f Dockerfile -t js:1 .
 docker run --rm -it -p 5001:3000 lab3:01
 ```
 
